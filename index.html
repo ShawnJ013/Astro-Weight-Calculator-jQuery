@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ <!-- Create a calculator representing human weight on out nice planets -->
+ <!-- Use some javaScript, jQuery and bootstrap html page -->
+  <title>AstroWeightCalculatorjQuery</title>
+  <meta charset="utf-8"> 
+  <link types="text/css" rel="styleSheet" href="index.css">
+  <!-- <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"rel="stylesheet" data-semver="3.2.0" data-require="bootstrap-css@3.1.1" /> -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<!-- Using margin and alignment to situate items accordingly to instructions -->
+<!-- Used bootstrap to make rolls and columns to associate weight and planets calculations -->
+<!-- Created a button calulation to represent the planets -->
+<body style="margin: 55px; align-content: ">
+	<right>
+    	
+	<h1>Astro Weight Calculator jQuery</h1>
+	<div class="row">
+
+			<div class="col-sm-5">
+				<label>Your Weight</label>
+				<input id="yourWeight" class="form-control" type="text" placeholder="Your Weight">
+			</div>
+			<div class="col-sm-5">
+			    <label>Select a Planet</label>
+			    <select id ="selectAPlanet" class="form-control"></select>
+		</div>
+ 		<div class="col-sm-2">
+  			<h1><button id="btnCalculate" class="btn btn-primary form-control"> Calculation</button></h1>
+  		
+  
+  	<!-- <p id="uservalue"> </p> -->
+
+  <!-- 	<input id="button" onclick = "newAnswer()" value="Calculation" type="button"> -->
+
+ 		</div>
+ </div>
+
+<p> 
+	<pre id = "futureoutput">
+
+	</pre>
+</p>
+
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="index.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js" data-semver="3.1.1" data-require="bootstrap@3.1.1"></script>
+
+
+
+</body>
+
+
+
+</html>
